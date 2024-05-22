@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* contact.jspのcss */
+h1{
+	padding-left: 18%;
+}
+.required{
+	color:darkorange;
+}
+.inquiry-form{
+	width: 60%;
+	margin-left: 10%;
+	padding: 3% 0% 3% 5%;
+	border: 2px solid #000000;
+	font-size: 18px;
+	border-radius: 15px;
+}
+.property{
+	font-weight:bold;
+}
+.input{
+	width: 80%;
+	resize: none;
+}
+
+/* 画面遷移後のcss */
+h2{
+	padding-left:18%;
+}
+.confirm{
+	margin-left: 10%;
+	width: 70%;
+	padding: 3% 0% 3% 5%;
+	font-size: 18px;
+}
+th, td{
+	padding-top: 10px;
+	
+}
+th{
+	background-color: deepskyblue;
+	color: white;
+	border-radius: 10px;
+	padding:0 8px;
+}
+td{
+	border-bottom:1px solid lightgray;
+	padding-left: 10px;
+	width: 70%;
+}
+.textarea th{
+	height: 100px;
+}
+.send-document{
+	margin-left: 10%;
+	width: 70%;
+	padding: 3% 0% 3% 5%;
+	font-size: 18px;
+}
+
+
+
